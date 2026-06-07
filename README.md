@@ -1,6 +1,20 @@
+# Analiza i Klasyfikacja Artykułów Prasowych BBC
+
 Celem projektu jest stworzenie systemu służącego do automatycznej analizy i klasyfikacji artykułów prasowych BBC.
 
-Podział pracy:
-Mikołaj Paszylka - dokumentacja specyfikacji wymagań
-Jan Domalewski - pierwsza część kodu - przetwarzanie i oczyszczanie tekstu, steeming, tokenizacja, stworzenie macierzy TDM oraz TDM_TFIDF, eksploracyjna analiza dancyh, globalne chmury słów oraz chmury słów z podziałem na kategorie
-Maciej Padamczyk - pozyskanie danych tekstowym oraz ich wstępne uporządkowanie, druga część kodu - klasyfikacja SVM artykułów ze względu na kategorię, podział na zbiór losowy i zbiór stratyfikowany, obliczenie metryk oraz ich wizualizacja dla obu zbiorów
+## Podział pracy
+
+* **Mikołaj Paszyłka**
+  * Dokumentacja specyfikacji wymagań.
+
+* **Jan Domalewski**
+  * Pierwsza część kodu: przetwarzanie i oczyszczanie tekstu (stemming, tokenizacja).
+  * Stworzenie macierzy TDM oraz TDM_TFIDF.
+  * Eksploracyjna analiza danych.
+  * Generowanie globalnych chmur słów oraz chmur słów z podziałem na kategorie.
+
+* **Maciej Padamczyk**
+  * Pozyskanie danych tekstowych oraz ich wstępne uporządkowanie.
+  * Druga część kodu: klasyfikacja artykułów ze względu na kategorię przy użyciu modelu SVM.
+  * Podział danych na zbiór losowy i zbiór stratyfikowany.
+  * Obliczenie metryk efektywności oraz ich wizualizacja dla obu zbiorów.
